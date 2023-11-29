@@ -1,0 +1,39 @@
+body {
+  background-color: lightgrey;
+}
+
+div {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+#title {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+img {
+  height: 100px;
+  width: 250px;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: grey;
+  border-color: black;
+  border-radius: 1px;
+  border-style: solid;
+}
+
+#title img + h1 {
+  margin: 20px;
+  text-align: center;
+}
